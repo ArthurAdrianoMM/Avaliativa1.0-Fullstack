@@ -1,4 +1,4 @@
-/* Reset and base styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Header and Logo Styling */
+
 .header {
   position: relative;
   width: 100%;
@@ -35,7 +35,7 @@ body {
   width: auto;
 }
 
-/* Additional stripe patterns for more density */
+
 .stripes-dense {
   position: fixed;
   top: 0;
@@ -54,7 +54,7 @@ body {
   pointer-events: none;
 }
 
-/* paradinha no topo  */
+
 .top-pattern {
   content: '';
   position: fixed;
@@ -68,7 +68,7 @@ body {
   z-index: 2;
 }
 
-/* paradinha de baixo */
+
 .bottom-pattern {
   position: fixed;
   bottom: 0;
@@ -81,7 +81,7 @@ body {
   z-index: 2;
 }
 
-/* circuloooooooooooooooooooooooooooooo */
+
 .circle-svg-pattern {
   position: fixed;
   top: 20%;
@@ -95,7 +95,7 @@ body {
   opacity: 0.8;
 }
 
-/* Responsive background images */
+
 @media (max-width: 768px) {
   body {
     background-image: url('./assets/images/background-mobile.png');
@@ -136,13 +136,13 @@ body {
   }
 }
 
-/* Ensure content is above background patterns */
+
 main, .form-container, .ticket-container {
   position: relative;
   z-index: 10;
 }
 
-/* Main Content Styling */
+
 .main-content {
   position: relative;
   z-index: 15;
@@ -181,7 +181,7 @@ main, .form-container, .ticket-container {
   opacity: 0.9;
 }
 
-/* Responsive Typography */
+
 @media (max-width: 768px) {
   .header {
     padding: 1.5rem 2rem;
@@ -212,7 +212,7 @@ main, .form-container, .ticket-container {
   }
 }
 
-/* Form Styling */
+
 .form-container {
   max-width: 900px;
   margin: 0 auto;
@@ -239,7 +239,7 @@ main, .form-container, .ticket-container {
   text-align: left;
 }
 
-/* Avatar Upload Area */
+
 .avatar-upload-area {
   border: 3px dashed #d1d0d5;
   border-radius: 16px;
@@ -358,7 +358,7 @@ main, .form-container, .ticket-container {
   opacity: 0.8;
 }
 
-/* Form Input Fields */
+
 .form-input {
   font-family: 'Inconsolata', monospace;
   font-size: 1.125rem;
@@ -396,7 +396,7 @@ main, .form-container, .ticket-container {
   background: rgba(81, 207, 102, 0.1);
 }
 
-/* Error Message Styling */
+
 .error-message {
   font-family: 'Inconsolata', monospace;
   font-size: 0.875rem;
@@ -413,7 +413,7 @@ main, .form-container, .ticket-container {
   display: block;
 }
 
-/* Generate Ticket Button */
+
 .generate-ticket-btn {
   font-family: 'Inconsolata', monospace;
   font-size: 1.125rem;
@@ -438,7 +438,7 @@ main, .form-container, .ticket-container {
   transform: translateY(0);
 }
 
-/* Responsive Form Adjustments */
+
 @media (max-width: 768px) {
   .form-container {
     padding: 1.5rem;
@@ -458,7 +458,7 @@ main, .form-container, .ticket-container {
   }
 }
 
-/* Ticket Display Styling */
+
 .ticket-container {
   position: relative;
   z-index: 15;
@@ -609,7 +609,7 @@ main, .form-container, .ticket-container {
   transform: rotate(180deg);
 }
 
-/* Responsive Ticket Adjustments */
+
 @media (max-width: 768px) {
   .ticket-container {
     padding: 1.5rem;
@@ -678,7 +678,7 @@ main, .form-container, .ticket-container {
   }
 }
 
-/* Extra small mobile devices */
+
 @media (max-width: 480px) {
   .ticket {
     height: 300px;
